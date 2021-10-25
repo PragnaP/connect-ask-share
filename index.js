@@ -18,6 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/category", categoryRouter);
 app.use("/user", userRouter);
 app.use("/post", postRouter);
+
+
 // app.use("/category", categoryRouter);
 
 app.use(errorMiddleware);
